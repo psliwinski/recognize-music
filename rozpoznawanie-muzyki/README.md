@@ -1,13 +1,13 @@
-required Python version: 3.6
-install file 'install.txt'
-"pip install -r install.txt"
-go to windows powershell and install ffmpeg
-"choco install ffmpeg"
-send some mp3s to songs folder
+required Python version: 3.6 <br>
+install file 'install.txt'<br>
+"pip install -r install.txt"<br>
+go to windows powershell and install ffmpeg<br>
+"choco install ffmpeg"<br>
+send some mp3s to songs folder<br>
 
-program handling
-create descriptors: run create_descriptors.py 
-music recognition: "python recognize_songs.py -g -s [seconds]" or modify run configurations
--g flag is optional, it decides whether sound will be recorded from mic or from speakers (pc's screen)
-database reset: run reset.py
-statistics: run statistics.py
+program handling<br>
+create descriptors: run create_descriptors.py <br>
+music recognition: "python recognize_songs.py -g -s [seconds]" or modify run configurations<br>
+-g flag is optional, it decides whether sound will be recorded from mic or from speakers (pc's screen)<br>
+database reset: run reset.py<br>
+statistics: run statistics.py<br>
