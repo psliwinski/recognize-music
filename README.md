@@ -1,9 +1,10 @@
-<h4> required Python version: 3.6<br>
-<h4> install file 'install.txt'<br>
-<h4> "pip install -r install.txt"<br>
-<h4> go to windows powershell and install ffmpeg<br>
-<h4> "choco install ffmpeg"<br>
-<h4> send some mp3s to songs folder<br>
+### environment preparing<br>
+* required Python version: 3.6<br>
+* install file 'install.txt'<br>
+* "pip install -r install.txt"<br>
+* go to windows powershell and install ffmpeg<br>
+* "choco install ffmpeg"<br>
+* send some mp3s to songs folder<br>
 
 ### program handling<br>
 * create descriptors: run create_descriptors.py <br>
