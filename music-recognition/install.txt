@@ -1,0 +1,20 @@
+# wymagana wersja Pythona: 3.6
+# zainstalować plik install.txt
+# "pip install -r install.txt"
+# wejść w windows powershell i zainstalować ffmpeg
+# "choco install ffmpeg"
+# przesłać utwory w mp3 do folderu songs
+#
+# obsługa programu
+# stworzenie deskryptorów: włączyć plik create_descriptors.py
+# rozpoznawanie muzyki: "python recognize_songs.py -g -s [ilosc_sekund]"
+# flaga -g jest opcjonalna, decyduje czy dźwięk będzie nagrywany z mikrofonu czy
+# z głośników (ekranu komputera)
+# parametry startowe można też ustawić w plik > modify run configurations > parameters
+# reset bazy danych: włączyć plik reset.py
+# statystyki: włączyć plik statistics.py
+numpy==1.19.3
+pyaudio
+pydub
+matplotlib
+scipy
